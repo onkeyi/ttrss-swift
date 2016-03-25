@@ -1,8 +1,8 @@
 //
-//  Licensed Swift File.swift
+//  Licensed Swift TTRSSApi.swift
 //  ttrssapi
 //
-// Copyright (c) 2016年 sunflowerstudio
+// Copyright (c) 2016 sunflowerstudio
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -147,10 +147,6 @@ public class TTRSSApi {
             } catch {
 
             }
-            
-            //dispatch_async(dispatch_get_main_queue()) {
-
-            //}
         }
     }
 }
