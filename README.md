@@ -1,12 +1,14 @@
-### ttrssapi
+ttrssapi
+========
 
+Look how easy it is to use:
 ```sh
 pod 'Alamofire', '~> 3.0'
 
 ```
-## Usage example:
-
-## Login
+Usage example:
+--------------
+Login
 ```sh
 
 let api = TTRSSApi(apiURL:"http://exsamplettrss.com/api/",delegate: self)
@@ -24,7 +26,7 @@ func fail(error: NSError?) {
 
 ```
 
-## getHeadlines
+getHeadlines
 ```sh
 let api = TTRSSApi(apiURL:"http://exsamplettrss.com/api/",delegate: nil)
 let param = ["sid":"0337teoa49n55cbsfkrf3785q2","feed_id":"-4"] as [String:AnyObject]
@@ -34,6 +36,10 @@ api.getHeadlines(param, complete: { data , error in
 })
 ```     
 
+License
+-------
+
+The project is licensed under the MIT license.
 
 
 
